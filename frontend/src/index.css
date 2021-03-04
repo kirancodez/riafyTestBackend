@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ebeef5;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+footer {
+  bottom: 0;
+  left: 0;
+  position: fixed; 
+  width:100%;
+  background-color: #aab6fe;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+.navlink {
+  color: #5f5fc4;
+}
+.sitename h1 {
+  margin-top: 80px;
+  color: #534bae;
+  font-family: "Rubik", sans-serif;
+  font-style: italic;
+  font-size: 6rem;
+  text-shadow: 1px 1px 1px #000, 3px 3px 5px #283593;
+}
+@media only screen and (max-width: 600px) {
+  .sitename h1{
+    font-size: 4rem;
+  }
+  .sec-div{
+    margin-top: 20px;
+  }
+  .abt-sec{
+    margin-top: 50px;
+    margin-left: 0 !important;
+  }
+}
+.sitename p {
+  font-family: "Quicksand", sans-serif;
+  font-style: italic;
+}
+.tableContent {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08), 0 2px 2px rgba(0, 0, 0, 0.12),
+    0 4px 4px rgba(0, 0, 0, 0.16), 0 8px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 40px;
+}
+.tableContent h1 {
+  font-size: 50px;
+  color: #001064;
+  /* font-family: "Rubik", sans-serif; */
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+}
+.website {
+  text-decoration: none;
+  color: #004dff;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.searchBox {
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07),
+    0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07),
+    0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07);
+}
+
+.content-sec{
+  margin-top: 15px;
+}
+.content-sec ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 15px;
+}
+.content-sec li{
+
+  padding: 15px;
+}
+ul.striped-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ul.striped-list > li:nth-of-type(odd) {
+  background-color: #e9e9f9 ;
+}
+ul.striped-list > li {
+  border-radius: 10px;
+}
+.backbtn{
+  color: #4f62d4 ;
+  font-size: 20px;
+}
+.backbtn i{
+  margin-top: 20px;
+}
